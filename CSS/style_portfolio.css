@@ -1,0 +1,27 @@
+#portfolio{
+  text-decoration:underline;
+}
+h1{
+  color:navy;
+  font-family:Georgia,serif;
+}
+p span{
+  color:navy;
+  font-family:Georgia,serif;
+  font-size:1.1em;
+}
+#left_container, #right_container{
+  display:inline-block;
+  text-align:center;
+  width:48%;
+  vertical-align:top;
+}
+#batman, #superman{
+  width: 90%;
+}
+div > p{
+  display:inline-block;
+}
+hr{
+  border: .2em solid navy;
+}

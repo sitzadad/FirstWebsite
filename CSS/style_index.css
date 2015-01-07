@@ -1,17 +1,11 @@
-/* #selfpic{
-  float:right;
-  width:38%;
-  margin-left:1.5em;
-  margin-bottom:1.5em;
-}
-.paragraphstart{
-  color:navy;
-  font-size:1.2em;
-  font-family:Georgia;
-  font-weight:bold;
-}*/
 #index{
   text-decoration:underline;
+}
+p span{
+  color:navy;
+  font-family:Georgia,serif;
+  font-size:1.5em;
+  font-weight:bold;
 }
 img{
   display:inline-block;
@@ -22,7 +16,4 @@ img{
 }
 #my_face{
   width:40%;
-}
-section{
-  margin-bottom:2em;
 }

@@ -1,6 +1,7 @@
 body{
   margin:0;
   background-color:whitesmoke;
+  min-width:1150px;
 }
 header{
   padding-top:1em;
@@ -51,84 +52,6 @@ nav a:hover{
   width:60%;
   margin:auto;
 }
-p span{
-  color:navy;
-  font-family:Georgia,serif;
-  font-size:1.2em;
-  font-weight:bold;
+section{
+  margin-bottom:2em;
 }
-/* .headerfill{
-  width:100%;
-}
-#name{
-  display:inline-block;
-  font-size:7em;
-  margin-left:10%;
-  vertical-align:bottom;
-  font-family:Georgia;
-  height:1em;
-  text-decoration:none;
-}
-#subtitle{
-  display:inline-block;
-  vertical-align:top;
-  font-size:1.4em;
-  font-family:Georgia;
-  margin-left:10%;
-  height:1em;
-  text-decoration:none;
-}
-#name, #subtitle, .button{
-  color:navy;
-}
-.navbar, .button{
-  background-color:Gainsboro;
-}
-.navbar{
-  width:100%;
-  text-align:center;
-  height:2em;
-}
-.buttonwrapper{
-  display:table;
-  margin:auto;
-  width:75%;
-  height:100%;
-}
-.button{
-  display:table-cell;
-  vertical-align:middle;
-  width:20%;
-  height:100%;
-  font-size:1.5em;
-  font-family:Verdana;
-  text-decoration:none;
-  font-weight:bold;
-}
-.button:hover{
-  background-color:navy;
-  color:Gainsboro;
-}
-#contentwrapper{
-  width:60%;
-  margin:auto;
-  padding:2%;
-}
-.footerfill{
-  width:100%;
-  height:7em;
-  background-color:Gainsboro;
-  text-align:center;
-  padding-top:2em;
-}
-.footerlink{
-  margin: 0 1em;
-  text-decoration:none;
-  color:navy;
-  font-weight:bold;
-  font-size:1.5em;
-}
-.footerlink:hover{
-  text-decoration:underline;
-}
- */
