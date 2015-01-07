@@ -15,6 +15,7 @@ p span{
   text-align:center;
   width:48%;
   vertical-align:top;
+  padding-top:1em;
 }
 #batman, #superman{
   width: 90%;
