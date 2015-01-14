@@ -1,132 +1,193 @@
+/* import */
+#index {
+  text-decoration: underline; }
+
+p {
+  text-align: left; }
+
+p span {
+  color: navy;
+  font-family: Georgia, serif;
+  font-size: 1.5em;
+  font-weight: bold; }
+
+img {
+  display: inline-block;
+  margin: 1rem;
+  box-sizing: border-box; }
+
+#batman {
+  width: 350px;
+  vertical-align: top; }
+
+#my_face {
+  width: 350px; }
+
+/****************
+
+*****************/
+@media screen and (max-width: 640px) {
+  #batman, #my_face {
+    width: 300px;
+    margin: 1rem 0; } }
+
+#portfolio {
+  text-decoration: underline; }
+
+h1 {
+  color: navy;
+  font-family: Georgia, serif; }
+
+p span {
+  color: navy;
+  font-family: Georgia, serif;
+  font-size: 1.1em; }
+
+#left_container, #right_container {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  padding-top: 1em; }
+
+#left_container {
+  margin-right: 3rem; }
+
+#batman, #superman {
+  width: 307px;
+  height: 258px; }
+
+div p {
+  display: block; }
+
+hr {
+  border: .2em solid navy; }
+
+section p {
+  text-align: left; }
+
+@media screen and (max-width: 1124px) {
+  #right_container {
+    margin-right: 3rem; } }
+
+@media screen and (max-width: 1000px) {
+  #right_container, #left_container {
+    margin: 0; } }
+
+#resume {
+  text-decoration: underline; }
+
+iframe {
+  margin-top: 2em;
+  width: 100%;
+  height: 148%; }
+
+/* colors */
+/* fonts */
 /* *{
   border:1px solid red;
 } */
+body {
+  margin: 0;
+  background-color: whitesmoke;
+  min-width: 1150px;
+  padding-top: 3rem; }
 
-body{
-  margin:0;
-  background-color:whitesmoke;
-  min-width:1150px;
-  padding-top:3rem;
-}
-header{
-  padding-top:1rem;
-  padding-bottom:1rem;
-}
-header a, footer a{
-  color:navy;
-}
-#title, #subtitle{
-  font-family:Georgia,serif;
-  text-decoration:none;
-  margin-left:7%;
-}
-#title{
-  font-size:6rem;
-  line-height:.8rem;
-}
-#subtitle{
-  font-size:1.5rem;
-  padding-top:-50px;
-}
-nav{
-  margin-top:2rem;
-  background-color:Gainsboro;
-}
-nav ul{
-  margin:0;
-  padding:0;
-  list-style-type:none;
-  text-align:center;
-}
-nav li{
-  display:inline-block;
-  width:33%;
-}
-nav a{
-  display:block;
-  text-decoration:none;
-  font-weight:bold;
-  font-family:Verdana,sans-serif;
-  font-size:1.2rem;
-  padding:.5rem 0;
-}
-nav a:hover{
-  background-color:navy;
-  color:Gainsboro;
-}
-#section_wrapper{
-  width:60%;
-  margin:auto;
-  text-align:center;
-}
-section{
-  margin-bottom:2rem;
-}
+header {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
 
+header a, footer a {
+  color: navy; }
 
+#title, #subtitle {
+  font-family: Georgia, serif;
+  text-decoration: none;
+  margin-left: 7%; }
+
+#title {
+  font-size: 6rem;
+  line-height: 5rem; }
+
+#subtitle {
+  font-size: 1.5rem;
+  padding-top: -50px; }
+
+nav {
+  margin-top: 2rem;
+  background-color: Gainsboro; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center; }
+
+nav li {
+  display: inline-block;
+  width: 33%; }
+
+nav a {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Verdana, sans-serif;
+  font-size: 1.2rem;
+  padding: .5rem 0; }
+
+nav a:hover {
+  background-color: navy;
+  color: Gainsboro; }
+
+#section_wrapper {
+  width: 60%;
+  margin: auto;
+  text-align: center; }
+
+section {
+  margin-bottom: 2rem; }
 
 /****************
 
 *****************/
-
-@media screen and (max-width:1150px){
-  body{
-    min-width:820px;
-  }
-  #title{
-    font-size:4rem;
-  }
-  #subtitle{
-    font-size:medium;
-  }
-}
+@media screen and (max-width: 1150px) {
+  body {
+    min-width: 820px; }
+  #title {
+    font-size: 4rem; }
+  #subtitle {
+    font-size: medium; } }
 
 /****************
 
 *****************/
-
-@media screen and (max-width:820px){
-  body{
-    min-width:500px;
-  }
-  #title{
-    font-size:3rem;
-  }
-  #subtitle{
-    font-size:0.9rem;
-  }
-  nav li{
-    width:20%;
-  }
-}
-
+@media screen and (max-width: 820px) {
+  body {
+    min-width: 500px; }
+  #title {
+    font-size: 3rem; }
+  #subtitle {
+    font-size: 0.9rem; }
+  nav li {
+    width: 20%; } }
 
 /****************
 
 *****************/
-
-@media screen and (max-width:500px){
-  body{
-    min-width:320px;
-  }
-  nav li{
-    width:100%;
-    display:block;
-    border-top: 2px solid navy;
-  }
-  nav li:nth-child(3){
-    width:100%;
-    display:block;
-    border-bottom: 2px solid navy;
-  }
-  nav a{
-    font-size:0.8rem;
-  }
-  #section_wrapper{
-    width:80%;
-    margin:auto;
-  }
-  #title{
-    font-size:2rem;
-  }
-}
+@media screen and (max-width: 500px) {
+  body {
+    min-width: 320px; }
+  nav li {
+    width: 100%;
+    display: block;
+    border-top: 2px solid navy; }
+  nav li:nth-child(3) {
+    width: 100%;
+    display: block;
+    border-bottom: 2px solid navy; }
+  nav a {
+    font-size: 0.8rem; }
+  #section_wrapper {
+    width: 80%;
+    margin: auto; }
+  #title {
+    font-size: 2rem; } }
