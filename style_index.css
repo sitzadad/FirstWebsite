@@ -1,0 +1,31 @@
+#index{
+  text-decoration:underline;
+}
+p span{
+  color:navy;
+  font-family:Georgia,serif;
+  font-size:1.5em;
+  font-weight:bold;
+}
+img{
+  display:inline-block;
+  margin: 1rem;
+  box-sizing: border-box;
+}
+#batman{
+  width: 350px;
+}
+#my_face{
+  width:350px;
+}
+
+/****************
+
+*****************/
+
+@media screen and (max-width:640px){
+  #batman, #my_face{
+    width:300px;
+    margin: 1rem 0;
+  }
+}
