@@ -23,7 +23,7 @@ img {
   width: 350px; }
 
 /****************
-
+<640px
 *****************/
 @media screen and (max-width: 640px) {
   #batman, #my_face {

@@ -1,0 +1,42 @@
+#portfolio {
+  text-decoration: underline; }
+
+h1 {
+  color: navy;
+  font-family: Georgia, serif; }
+
+p span {
+  color: navy;
+  font-family: Georgia, serif;
+  font-size: 1.1em; }
+
+#left_container, #right_container {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  padding-top: 1em; }
+
+#left_container {
+  margin-right: 3rem; }
+
+#batman, #superman {
+  width: 307px;
+  height: 258px;
+  margin-bottom: 0.35rem; }
+
+div p {
+  display: block; }
+
+hr {
+  border: .2em solid navy; }
+
+section p {
+  text-align: left; }
+
+@media screen and (max-width: 1124px) {
+  #right_container {
+    margin-right: 3rem; } }
+
+@media screen and (max-width: 1000px) {
+  #right_container, #left_container {
+    margin: 0; } }

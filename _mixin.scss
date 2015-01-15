@@ -1,0 +1,4 @@
+@mixin config_body($mwidth,$padtop:0px){
+  min-width:$mwidth;
+  padding-top:$padtop;
+}
